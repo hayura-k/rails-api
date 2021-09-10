@@ -4,5 +4,4 @@ class Api::V1::RestaurantsController < ApplicationController
 
     render json: {restaurants: restaurants},  status: :ok
   end
-
 end
